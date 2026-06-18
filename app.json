@@ -2,13 +2,13 @@
   "expo": {
     "name": "Serralheria",
     "slug": "serralheria-marcenaria",
+    "version": "1.0.0",
     "android": {
-      "package": "com.novaapp.serralheria"
+      "package": "com.novaapp.serralheria",
+      "versionCode": 1
     },
-    "extra": {
-      "eas": {
-        "projectId": "0d01e64e-b8c8-4980-beed-2074e9f405b8"
-      }
+    "ios": {
+      "bundleIdentifier": "com.novaapp.serralheria"
     }
   }
 }
