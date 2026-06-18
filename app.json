@@ -9,6 +9,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.novaapp.serralheria"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d01e64e-b8c8-4980-beed-2074e94015b8"
+      }
     }
   }
 }
