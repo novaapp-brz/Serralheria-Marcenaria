@@ -4,6 +4,11 @@
     "slug": "serralheria-marcenaria",
     "android": {
       "package": "com.novaapp.serralheria"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "snack-1473aab2-5d01-4b36-9b5d-7cb15cd475ae"
+      }
     }
   }
 }
