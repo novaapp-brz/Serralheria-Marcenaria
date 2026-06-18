@@ -1,19 +1,30 @@
 {
-  "cli": {
-    "version": ">= 5.9.0"
-  },
-  "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
+  "expo": {
+    "name": "Serralheria",
+    "slug": "serralheria-marcenaria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "Light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.novaapp.serralheria",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "snack-1473aab2-5d01-4b36-9b5d-7cb15cd475ae"
       }
     },
-    "production": {
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
-      }
-    }
+    "sdkVersion": "54.0.0",
+    "platforms": ["ios", "android"]
   }
 }
