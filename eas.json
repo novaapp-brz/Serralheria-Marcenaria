@@ -6,10 +6,14 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "Light",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
       "package": "com.novaapp.serralheria",
@@ -19,12 +23,18 @@
       },
       "edgeToEdgeEnabled": true
     },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "extra": {
       "eas": {
         "projectId": "snack-1473aab2-5d01-4b36-9b5d-7cb15cd475ae"
       }
-    },
-    "sdkVersion": "54.0.0",
-    "platforms": ["ios", "android"]
+    }
   }
 }
